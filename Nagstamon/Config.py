@@ -124,13 +124,13 @@ class AppInfo(object):
     """
         contains app information previously located in GUI.py
     """
-    NAME = 'Nagstamon'
-    VERSION = '3.9-20221010'
+    NAME = 'SMHstamon'
+    VERSION = '0.1-20221010'
     WEBSITE = 'https://nagstamon.de'
-    COPYRIGHT = '©2008-2022 Henri Wahl et al.'
-    COMMENTS = 'Nagios status monitor for your desktop'
+    COPYRIGHT = '2022 Manuel Bolzoni.'
+    COMMENTS = 'SMHUB status monitor for your desktop'
     # dict of servers to offer for downloads if an update is available
-    DOWNLOAD_SERVERS = {'nagstamon.de': 'https://github.com/HenriWahl/Nagstamon/releases'}
+    DOWNLOAD_SERVERS = {'smhub.retelit.it': 'https://github.com/manuelbolzoni/SMHstamon/releases'}
     # version URL depends on version string
     if 'alpha' in VERSION.lower() or \
         'beta' in VERSION.lower() or \
